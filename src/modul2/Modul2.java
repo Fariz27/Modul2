@@ -10,12 +10,39 @@ package modul2;
  * @author Fariz
  */
 public class Modul2 {
-
+    private String nama;
+    private int absen;
+    private String alamat;
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public int getAbsen() {
+        return absen;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public void setAbsen(int absen) {
+        this.absen = absen;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
     }
     
 }
