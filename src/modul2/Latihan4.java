@@ -25,12 +25,16 @@ public class Latihan4 {
             this.penumpang=temp;
         }
     }
-    public void getpenumpang(int password){
+    public boolean getpenumpang(int password){
+        boolean benar=false;
         if(password==24){
             System.out.println("Password Benar");
+            benar=true;
         }else{
             System.out.println("Password Salah");
+            benar=false;
         }
+        return benar;
     }
     public void cetakpenumpang(){
         System.out.println("Penumpang Bus Sekarang\t= "+penumpang);
