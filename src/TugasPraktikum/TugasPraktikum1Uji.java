@@ -20,7 +20,7 @@ public class TugasPraktikum1Uji {
        System.out.println("Max penumpang mobil adalah\t: "+max);
        System.out.print("Masukan Password\t: ");
        pw=s.nextInt();
-       benar=a.setpenumpang(pw);
+       benar=a.setpassword(pw);
        if(benar){
            System.out.println("--Password benar--");
            do{

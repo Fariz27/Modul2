@@ -33,7 +33,7 @@ public class TugasPraktikum1 {
             this.penumpang+=temp;
         }return ada;
     }
-    public boolean setpenumpang(int password){
+    public boolean setpassword(int password){
         boolean benar=false;
         if(password==24){
             System.out.println("Password Benar");
